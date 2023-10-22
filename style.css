@@ -408,7 +408,6 @@ form button {
   display: none;
 }
 
-
 @media only screen and (min-width: 768px) {
   header {
     height: 72px;
@@ -487,6 +486,7 @@ form button {
     gap: 2rem;
     padding: 1.5rem;
   }
+
   .ror {
     border-radius: 10px;
     border: none;
@@ -496,7 +496,7 @@ form button {
     padding-left: 12px;
     padding-right: 12px;
   }
-  
+
   .mobile {
     display: none;
   }
@@ -639,5 +639,4 @@ form button {
   .light {
     display: none;
   }
-
 }
