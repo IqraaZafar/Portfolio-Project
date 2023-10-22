@@ -408,10 +408,11 @@ form button {
   display: none;
 }
 
+
 @media only screen and (min-width: 768px) {
   header {
     height: 72px;
-    padding: 0 10rem;
+    padding: 0 8rem;
   }
 
   header .logostyle {
@@ -437,7 +438,7 @@ form button {
   }
 
   .headline {
-    padding: 5% 0%;
+    padding: 2% 0%;
     background-color: white;
     border-bottom-left-radius: 5.5rem;
   }
@@ -454,20 +455,48 @@ form button {
   }
 
   .heading {
-    padding-right: 43%;
+    padding-left: 10%;
     font-size: 48px;
   }
 
   .content {
+    padding-left: 10%;
     font-size: 20px;
     line-height: 28px;
-    width: 58vw;
+    width: 45vw;
   }
 
   .connect {
     margin-top: 0.8rem;
+    padding-left: 10%;
   }
 
+  .Img-Icon {
+    padding-left: 10%;
+  }
+
+  .worksection {
+    padding: 7rem 0;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 7rem;
+  }
+
+  .cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    padding: 1.5rem;
+  }
+  .ror {
+    border-radius: 10px;
+    border: none;
+    color: var(--primary-b-400, #6070ff);
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  
   .mobile {
     display: none;
   }
@@ -476,14 +505,8 @@ form button {
     display: inline;
   }
 
-  .desktop-right {
+  .desktop.right {
     order: 1;
-  }
-
-  .works-section {
-    padding: 7rem 0;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    gap: 7rem;
   }
 
   .Project-title {
@@ -586,4 +609,35 @@ form button {
   .border {
     width: 105%;
   }
+
+  .contact_me {
+    height: 115vh;
+    border-top-left-radius: 7rem;
+    background-image: url(./Icon-Images/contact-bg.svg);
+    background-position: 50% 80%;
+  }
+
+  .contact_me p {
+    width: 35%;
+  }
+
+  form {
+    margin: 0;
+    width: 30%;
+  }
+
+  form input,
+  form textarea {
+    border-radius: 0;
+    width: 93%;
+  }
+
+  .form-button {
+    align-self: center;
+  }
+
+  .light {
+    display: none;
+  }
+
 }
