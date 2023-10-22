@@ -4,11 +4,6 @@
   font-family: 'Poppins', sans-serif;
 }
 
-body {
-  width: 375px;
-  cursor: pointer;
-}
-
 .background {
   background-color: #f2f2f9bc;
 }
@@ -32,7 +27,7 @@ header {
   margin-right: 24px;
 }
 
-.headline {
+.headline-section {
   display: flex;
   background-repeat: no-repeat;
   background-color: white;
@@ -42,6 +37,13 @@ header {
   gap: 12px;
   background-image: url(./Icon-Images/header-shapes\ mobile@2x.svg);
   border-bottom-left-radius: 5.5rem;
+}
+
+.head-wrap {
+  padding: 0 8%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
 }
 
 .heading {
@@ -82,7 +84,7 @@ header {
 .worksection {
   display: grid;
   justify-items: center;
-  padding: 110px 0px;
+  padding: 110px 0;
   gap: 80px;
   background-color: #f2f2f9bc;
 }
@@ -101,7 +103,7 @@ header {
 }
 
 .title {
-  color:  #172b4d; 
+  color: #172b4d;
   width: 300px;
   height: 5rem;
   font-size: 32px;
@@ -149,7 +151,7 @@ header {
 .buttons {
   display: flex;
   align-items: center;
-    gap: 8px;
+  gap: 8px;
 }
 
 .html {
@@ -189,7 +191,7 @@ header {
   padding: 12px;
   background-color: white;
   color: #6070ff;
-  margin: 4px 0px 4px 0px;
+  margin: 4px 0 4px 0;
 }
 
 .about {
@@ -197,13 +199,13 @@ header {
 }
 
 .section {
-    display: inline-flex;
-    padding: 114px 24px;
-    flex-direction: column;
-    align-items: center;
-    gap: 24px;
-    border-top-right-radius: 120px;
-    background-color: white;
+  display: inline-flex;
+  padding: 114px 24px;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  border-top-right-radius: 120px;
+  background-color: white;
 }
 
 .myself {
@@ -403,27 +405,26 @@ form button {
 }
 
 @media only screen and (min-width: 768px) {
-
-  header{
+  header {
     height: 72px;
     padding: 0 10rem;
   }
-   
+
   header .logostyle {
     order: 0;
   }
-  
+
   .icon img {
     display: none;
     order: 1;
   }
-  
+
   header .menue {
     display: flex;
     gap: 3rem;
     order: 2;
   }
-  
+
   .items {
     color: #344563;
     font-size: 0.9375rem;
@@ -431,35 +432,35 @@ form button {
     line-height: 1.25rem;
   }
 
-    .headline {
-      padding: 5% 0%;
-      background-color: white;
-      border-bottom-left-radius: 5.5rem;
-    }
-  
-    .headline-section {
-      background-image: url(./Icon-Images/Header\ bg.svg);
-      height: 80vh;
-      justify-content: center;
-      background-size: 100% 100%;
-    }
-  
-    .headline-wrap {
-      width: 45rem;
-    }
-  
-    .heading {
-      padding-right: 43%;
-      font-size: 48px;
-    }
-  
-    .content {
-      font-size: 20px;
-      line-height: 28px;
-      width: 58vw;
-    }
-  
-    .connect {
-      margin-top: 0.8rem;
-    }
+  .headline {
+    padding: 5% 0%;
+    background-color: white;
+    border-bottom-left-radius: 5.5rem;
+  }
+
+  .headline-section {
+    background-image: url(./Icon-Images/Header\ bg.svg);
+    height: 80vh;
+    justify-content: center;
+    background-size: 100% 100%;
+  }
+
+  .headline-wrap {
+    width: 45rem;
+  }
+
+  .heading {
+    padding-right: 43%;
+    font-size: 48px;
+  }
+
+  .content {
+    font-size: 20px;
+    line-height: 28px;
+    width: 58vw;
+  }
+
+  .connect {
+    margin-top: 0.8rem;
+  }
 }
